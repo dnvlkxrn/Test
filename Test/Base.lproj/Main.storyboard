@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-RX-dxi">
-                                <rect key="frame" x="172" y="408.66666666666669" width="49" height="35"/>
+                                <rect key="frame" x="163" y="408.66666666666669" width="67.333333333333314" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="GO"/>
+                                <buttonConfiguration key="configuration" style="filled" title="NEXT"/>
                                 <connections>
                                     <segue destination="3vK-QF-xye" kind="presentation" id="CyR-6q-yIV"/>
                                 </connections>
