@@ -16,15 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-RX-dxi">
-                                <rect key="frame" x="172" y="370" width="49" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-RX-dxi">
+                                <rect key="frame" x="172" y="408.66666666666669" width="49" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GO"/>
+                                <connections>
+                                    <segue destination="3vK-QF-xye" kind="presentation" id="CyR-6q-yIV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jQm-RX-dxi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WmX-68-XOD"/>
+                            <constraint firstItem="jQm-RX-dxi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e2V-Hz-gyU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -34,7 +40,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="iWW-se-6AI">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3vK-QF-xye" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="3vK-QF-xye" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QDO-Hq-gHU">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
